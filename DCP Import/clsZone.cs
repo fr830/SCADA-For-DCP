@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace JLR.CFM.DCP.Import
+{
+    public class Zone
+    {
+        public string ShortDesc { get; set; }
+        public string LongDesc { get; set; }
+        public string ID { get; set; }
+        public Zone(string id)
+        {
+
+        }
+
+    }
+}

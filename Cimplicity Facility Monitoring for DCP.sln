@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCP Import", "DCP Import\DCP Import.csproj", "{7BEA9CEC-E761-453D-9364-9D74C9AB2769}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Report Project", "Report Project\Report Project.rptproj", "{A3CF63E8-C101-4174-9A44-DDE01889D68F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugLocal|Any CPU = DebugLocal|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BEA9CEC-E761-453D-9364-9D74C9AB2769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEA9CEC-E761-453D-9364-9D74C9AB2769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEA9CEC-E761-453D-9364-9D74C9AB2769}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEA9CEC-E761-453D-9364-9D74C9AB2769}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{7BEA9CEC-E761-453D-9364-9D74C9AB2769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEA9CEC-E761-453D-9364-9D74C9AB2769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.Debug|Any CPU.ActiveCfg = Debug
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.Debug|Any CPU.Build.0 = Debug
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.Debug|Any CPU.Deploy.0 = Debug
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.DebugLocal|Any CPU.ActiveCfg = DebugLocal
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.DebugLocal|Any CPU.Build.0 = DebugLocal
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.Release|Any CPU.ActiveCfg = Release
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.Release|Any CPU.Build.0 = Release
+		{A3CF63E8-C101-4174-9A44-DDE01889D68F}.Release|Any CPU.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
