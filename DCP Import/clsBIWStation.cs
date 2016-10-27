@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    internal class Sequence
+    internal class BIWStation : Station
     {
+
         public string ShortDesc { get; set; }
 
         public string LongDesc { get; set; }
 
         public string ID { get; set; }
 
-        public SafetyArea Patrent { get; set; }
+        public Sequence Patrent { get; set; }
 
-        public string ClassID { get { return "SCADA_DCP_SEQ"; } }
+        public string Resource { get; set; }
 
-        public Sequence(string id)
+        public string ClassID { get { return "SCADA_DCP_BIW"; } }
+
+        public BIWStation(string id)
         {
             ID = id;
+
         }
     }
 }

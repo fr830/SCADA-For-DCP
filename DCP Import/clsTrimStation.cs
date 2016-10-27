@@ -6,11 +6,24 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    class TrimStation : Station
+    internal class TrimStation : Station
     {
+
+        public string ShortDesc { get; set; }
+
+        public string LongDesc { get; set; }
+
+        public string ID { get; set; }
+
+        public Sequence Patrent { get; set; }
+
+        public string Resource { get; set; }
+
+        public string ClassID { get { return "SCADA_DCP_TRM"; } }
+
         public TrimStation(string id)
         {
-            this.ID = id;
+            ID = id;
 
         }
     }

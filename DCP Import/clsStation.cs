@@ -6,12 +6,18 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    class Station
+    interface Station
     {
-        public string ShortDesc { get; set; }
-        public string LongDesc { get; set; }
-        public string ID { get; set; }
-        public Sequence Patrent { get; set; }
+        string ShortDesc { get; set; }
 
+        string LongDesc { get; set; }
+
+        string ID { get; set; }
+
+        string Resource { get; set; }
+
+        string ClassID { get; }
+
+        Sequence Patrent { get; set; }
     }
 }

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    class SafetyArea
+    internal class SafetyArea
     {
-        public string ShortDesc { get; set; }
-        public string LongDesc { get; set; }
-        public string ID { get; set; }
-        public Zone Patrent { get; set; }
-        public SafetyArea(string id)
+        internal string ShortDesc { get; set; }
+        internal string LongDesc { get; set; }
+        internal string ID { get; set; }
+        internal Zone Patrent { get; set; }
+        internal SafetyArea(string id)
         {
 
         }

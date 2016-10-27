@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsBIWStation.cs" />
     <Compile Include="clsStation.cs" />
     <Compile Include="clsTrimStation.cs" />
     <Compile Include="clsCimProject.cs" />
