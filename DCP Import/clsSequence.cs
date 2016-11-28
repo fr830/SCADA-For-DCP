@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    internal class Sequence
+    public class Sequence
     {
         public string ShortDesc { get; set; }
 
@@ -16,11 +16,13 @@ namespace JLR.CFM.DCP.Import
 
         public SafetyArea Patrent { get; set; }
 
-        public string ClassID { get { return "SCADA_DCP_SEQ"; } }
+        public static string ClassID { get { return "SCADA_DCP_SEQ"; } }
 
         public Sequence(string id)
         {
             ID = id;
         }
+
+
     }
 }

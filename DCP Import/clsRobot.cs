@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    internal class Robot : Station
+    public class Robot : Station
     {
         public string ShortDesc { get; set; }
 

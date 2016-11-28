@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    internal class TrimStation : Station
+    public class TrimStation : Station
     {
 
         public string ShortDesc { get; set; }
@@ -24,7 +24,6 @@ namespace JLR.CFM.DCP.Import
         public TrimStation(string id)
         {
             ID = id;
-
         }
     }
 }

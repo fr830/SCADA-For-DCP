@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    internal class Plc
+    public class Plc
     {
     }
 }

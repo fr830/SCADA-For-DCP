@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JLR.CFM.DCP.Import
 {
-    internal class BIWStation : Station
+    public class BIWStation : Station
     {
 
         public string ShortDesc { get; set; }
