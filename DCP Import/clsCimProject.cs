@@ -48,6 +48,21 @@ namespace JLR.CFM.DCP.Import
             AddParams();
             AddClasses();
             SetUpDSN();
+            kjr();
+        }
+
+        private void kjr()
+        {
+            Proficy.CIMPLICITY.CimServer.CimSystem oSystem = new Proficy.CIMPLICITY.CimServer.CimSystem();
+            Proficy.CIMPLICITY.CimServer.CimProductList oProducts;
+            int iCount;
+            string s;
+            oProducts = oSystem.InstalledProducts;
+            iCount = oProducts.Count;
+            foreach (CimProduct p in oProducts)
+                s = p.ProductID;
+
+
         }
 
         private void CreateProject()
